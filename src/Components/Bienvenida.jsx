@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../logo.png'
-import '../App.css'; 
+import '../App.css';
 
 
 function Bienvenida({ onStart }) {
@@ -34,7 +34,7 @@ function Bienvenida({ onStart }) {
       cursor: 'pointer',
       transition: 'background-color 0.3s', // Efecto de transición
     },
-    
+
   };
   const [categoria, setCategoria] = useState('');
   const [dificultad, setDificultad] = useState('');
@@ -50,10 +50,10 @@ function Bienvenida({ onStart }) {
 
         <label>
 
-          Categoría:
-          <select onChange={(e) => setCategoria(e.target.value)} style={estilos.select}>
-            <option value="">Cualquiera</option>
-            {/* Aquí puedes añadir más categorías según la API */}
+          Category:
+          <select onChange={(e) => setCategoria(e.target.value)} style={estilos.select} className="selectEstilo">
+            <option value="">Any</option>
+          
             <option value="9">General Knowledge</option>
             <option value="21">Sports</option>
             <option value="31"> Japanese Anime & Manga</option>
@@ -62,17 +62,17 @@ function Bienvenida({ onStart }) {
             <option value="13">Musicals & Theatres</option>
             <option value="24">Politics</option>
             <option value="25">Art</option>
-            <option value="17">"Science & Nature</option>
+            <option value="17">Science & Nature</option>
 
           </select>
         </label>
         <label>
-          Dificultad:
-          <select onChange={(e) => setDificultad(e.target.value)} style={estilos.select}>
-            <option value="">Cualquiera</option>
-            <option value="easy">Fácil</option>
-            <option value="medium">Medio</option>
-            <option value="hard">Difícil</option>
+          Difficulty:
+          <select onChange={(e) => setDificultad(e.target.value)} style={estilos.select} className="selectEstilo">
+            <option value="">Any</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium </option>
+            <option value="hard">Hard</option>
           </select>
         </label>
         <button onClick={iniciarTrivia} style={estilos.boton} >Iniciar</button>

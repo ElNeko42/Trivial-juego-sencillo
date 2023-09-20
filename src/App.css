@@ -55,3 +55,6 @@
     transform: translateY(0);
   }
 }
+.selectEstilo option:hover {
+  background-color: #d9480c;   color: #fff; 
+}
