@@ -30,13 +30,21 @@ function App() {
     setEstado('PUNTUACION');
   };
 
+  const reiniciarTrivia = () => {
+    console.log('resteo')
+    setPuntuacion(0);
+    setEstado('BIENVENIDA');
+    setDificultad('');
+    setCategoria('');
+  };
+
   return (
     <div style={estilos}>
       {estado === 'BIENVENIDA' && <Bienvenida onStart={iniciarTrivia} />}
       {estado === 'PREGUNTAS' && (
         <Preguntas categoria={categoria} dificultad={dificultad} onEnd={finalizarTrivia} />
       )}
-      {estado === 'PUNTUACION' && <Puntuacion puntuacion={puntuacion} />}
+      {estado === 'PUNTUACION' && <Puntuacion puntuacion={puntuacion} reiniciarTrivia={reiniciarTrivia} />}
     </div>
   );
 }
