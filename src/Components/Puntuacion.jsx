@@ -34,9 +34,9 @@ function Puntuacion({ puntuacion, reiniciarTrivia }) {
   return (
     <div style={estilos.contenedor}>
       <div style={estilos.tarjetaPuntuacion}>
-        <h2>Tu puntuación es: {puntuacion}</h2>
+        <h2>Score: {puntuacion}</h2>
       </div>
-      <button style={estilos.botonRestart} onClick={reiniciarTrivia}>Volver a Jugar</button>
+      <button style={estilos.botonRestart} onClick={reiniciarTrivia}>Play again?</button>
     </div>
   );
 }

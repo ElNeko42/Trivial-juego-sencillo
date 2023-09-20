@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Trivia React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Desarrollador
 
-## Available Scripts
+Francisco José Ben Ramírez
 
-In the project directory, you can run:
+## Descripción
 
-### `npm start`
+La "Trivia React App" es una divertida aplicación web desarrollada para aficionados a los juegos de trivia. Con un diseño moderno y una interfaz amigable, los usuarios pueden disfrutar de una experiencia única, poniendo a prueba sus conocimientos en diferentes categorías y niveles de dificultad.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Características
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Selección de Categorías y Dificultad**: Los jugadores pueden elegir entre una variedad de categorías y seleccionar el nivel de dificultad que prefieran antes de empezar el juego.
+  
+- **Diseño Estilizado**: Con una paleta de colores vibrante y un diseño moderno, la aplicación brinda una experiencia visual agradable.
+  
+- **Sistema de Puntuación**: Al final del juego, los jugadores pueden ver su puntuación total, lo que añade un elemento competitivo y emocionante al juego.
+  
+- **Funcionalidad de Reinicio**: La aplicación permite a los jugadores volver a empezar fácilmente, ofreciendo horas de diversión ininterrumpida.
 
-### `npm test`
+## Cómo Funciona
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Página de Bienvenida**: Al iniciar la aplicación, los jugadores son recibidos con una página de bienvenida donde pueden seleccionar la categoría y la dificultad del juego.
+   
+2. **Juego de Trivia**: Una vez seleccionadas las preferencias, los jugadores son llevados a la página de trivia, donde pueden responder a una serie de preguntas presentadas en una estructura 2x2, al estilo "¿Quién quiere ser millonario?".
+   
+3. **Puntuación**: Después de responder a todas las preguntas, los jugadores son llevados a la página de puntuación donde pueden ver su puntuación total.
+   
+4. **Reinicio**: Desde la página de puntuación, los jugadores tienen la opción de reiniciar el juego y volver a la página de bienvenida para comenzar una nueva ronda de trivia.
 
-### `npm run build`
+## Posibles Mejoras Futuras
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Leaderboard**: Implementación de una tabla de líderes donde los jugadores pueden ver y comparar sus puntuaciones con otros.
+   
+2. **Autenticación de Usuarios**: Añadir una funcionalidad de inicio de sesión/registro para permitir a los usuarios guardar su progreso y estadísticas.
+   
+3. **Modo Multijugador**: Implementación de un modo multijugador para permitir a los amigos competir entre ellos en tiempo real.
+   
+4. **Preguntas Personalizadas**: Posibilidad de añadir un conjunto personalizado de preguntas por parte de los usuarios.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Conclusión
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esta aplicación fue creada con mucho entusiasmo y dedicación por Francisco José Ben Ramírez. Es un proyecto en constante evolución y se planean nuevas características y mejoras para el futuro. Esperamos que disfrutes utilizando la "Trivia React App" tanto como disfrutamos creándola. ¡Buena suerte y que gane el mejor!

@@ -75,7 +75,7 @@ function Bienvenida({ onStart }) {
             <option value="hard">Hard</option>
           </select>
         </label>
-        <button onClick={iniciarTrivia} style={estilos.boton} >Iniciar</button>
+        <button onClick={iniciarTrivia} style={estilos.boton} >Play</button>
       </div>
     </div>
   );
